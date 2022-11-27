@@ -1,0 +1,120 @@
+.key {
+    display: flex;
+    margin: 0 10px;
+    height: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-2);
+    color: var(--color-3);
+    border-radius: 10px;
+}
+.key:hover {
+    cursor: pointer;
+    background: rgb(108, 106, 109);
+    color: silver;
+}
+
+.tiret {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 3em;
+    height: auto;
+}
+
+.motDecouvert {
+    font-size: 4em;
+    align-items: center;
+}
+
+.good {
+    background: var(--color-5);
+}
+
+.false {
+    background: var(--color-4);
+}
+
+/* ID */
+#clavier {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: space-around;
+    background: var(--primary-color);
+    align-items: center;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+#dessin,
+#mot {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    height: 300px;
+}
+
+#dessin {
+    display: flex;
+    justify-content: center;
+}
+
+#mot {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#end-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#text-proposition {
+    color: var(--color-3);
+}
+
+#title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: var(--primary-color);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#choixClavier {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#anglais,
+#francais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 2em;
+    color: var(--color-3);
+}

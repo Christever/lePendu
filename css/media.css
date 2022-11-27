@@ -1,0 +1,82 @@
+@media all and (max-width: 1450px) {
+    form {
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    .btn {
+        height: 43px;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #game {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mot {
+        height: 200px;
+    }
+
+    img {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .container {
+        width: 450px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+    }
+
+    form {
+        font-size: 1em;
+    }
+    input {
+        font-size: inherit;
+    }
+
+    .btn {
+        height: 30px;
+    }
+
+    #mot {
+        gap: 5px;
+    }
+
+    #btn-valid {
+        font-size: 0.75em;
+    }
+
+    #text-proposition {
+        display: none;
+    }
+
+    #anglais,
+    #francais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        color: var(--color-3);
+        margin-bottom: 0;
+    }
+
+    #anglais span,
+    #francais span {
+        display: none;
+    }
+}

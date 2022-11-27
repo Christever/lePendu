@@ -1,0 +1,7 @@
+@import "root.css";
+@import "color.css";
+@import "mfk.css";
+@import "game.css";
+
+/* Media Query */
+@import "media.css";

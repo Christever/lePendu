@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Le jeu du Pendu</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="text-center color-1" id="title">Le jeu du Pendu</h1>
+            </header>
+        </div>
+        <section id="choixClavier">
+            <div class="container">
+                <h2 class="text-center color-3">Choisissez votre clavier</h2>
+                <div id="anglais">
+                    <img
+                        src="images/anglais.jpg"
+                        style="width: 200px"
+                        alt="drapeau-anglais"
+                        id="drapeau-anglais"
+                    /><span>Clavier QWERTY</span>
+                </div>
+            </div>
+            <div id="francais">
+                <img
+                    src="images/francais.jpg"
+                    style="width: 200px"
+                    alt="drapeau-francais"
+                    id="drapeau-francais"
+                />
+                <span>Clavier AZERTY</span>
+            </div>
+        </section>
+
+        <section id="jeu">
+            <div class="container">
+                <div class="grid" id="game">
+                    <div class="" id="mot"></div>
+
+                    <div class="" id="dessin"></div>
+                </div>
+
+                <div class="" id="formulaire">
+                    <form action="" id="form-proposition">
+                        <label for="proposition" id="text-proposition"
+                            >Votre réponse :
+                        </label>
+                        <input
+                            type="text"
+                            name="proposition"
+                            id="proposition"
+                            placeholder="Entrez votre proposition..."
+                        />
+
+                        <button class="btn" id="btn-valid">valider</button>
+                    </form>
+                    <div class="" id="clavier"></div>
+                </div>
+                <div id="end-game"></div>
+            </div>
+        </section>
+
+        <div class="container">
+            <footer>
+                <span
+                    ><a
+                        href="http://steverlynck.fr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Christever</a
+                    >
+                </span>
+                <span
+                    >Le Jeu du Pendu : Projet passerelle#1
+                    <a
+                        href="https://Believemy.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Believemy.com</a
+                    >
+                </span>
+                <span>&copy; 2022</span>
+            </footer>
+        </div>
+
+        <!-- JS -->
+
+        <script src="js/game.js" type="module"></script>
+    </body>
+</html>
