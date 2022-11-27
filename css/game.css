@@ -118,3 +118,13 @@
     font-size: 2em;
     color: var(--color-3);
 }
+#drapeau-anglais,
+#drapeau-francais {
+    width: 200px;
+}
+
+#drapeau-anglais:hover,
+#drapeau-francais:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
