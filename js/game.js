@@ -11,6 +11,7 @@ const iDClavier = document.getElementById("clavier");
 const idMotCache = document.getElementById("mot");
 const iDProposition = document.getElementById("proposition");
 const iDBtnValid = document.getElementById("btn-valid");
+const iDImagePendu = document.getElementById("image-pendu");
 
 const url = "../data/mots.json";
 
@@ -111,8 +112,8 @@ function affecteTouche() {
 
 function affichePendu(noImage = 1) {
     const url = "../images/pendu-" + noImage + ".png";
-    console.log(url);
-    iDDessin.innerHTML = `<img src=${url} alt="pendu" />`;
+
+    iDImagePendu.setAttribute("src", url);
     if (noImage === maxImage) {
         defaite();
     }
